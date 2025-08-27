@@ -1,0 +1,21 @@
+teacher:
+  batch_size: 128
+  learning_rate: 0.001
+  epochs: 50
+  
+student:
+  batch_size: 64
+  learning_rate: 0.0005
+  epochs: 100
+  
+kd:
+  temperature: 4.0
+  alpha: 0.7
+  
+optimization:
+  pruning_sparsity: 0.8
+  quantization_bits: 8
+  
+esp32:
+  max_memory_kb: 32
+  target_latency_ms: 50
