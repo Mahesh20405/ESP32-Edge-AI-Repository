@@ -58,17 +58,46 @@ This project demonstrates how to deploy lightweight neural networks on ESP32 mic
 
 ## Project Structure
 ```
-├── teacher_model/          # Large teacher network training
-├── student_model/          # Knowledge distillation implementation  
-├── optimization/           # Pruning and quantization scripts
-├── tflite_conversion/      # Model conversion for deployment
-├── esp32_simulation/       # Performance simulation scripts
-├── esp32_firmware/         # ESP32 C++ implementation
-├── datasets/               # Data loading and preprocessing
-├── scripts/                # Automation scripts
-├── docs/                   # Documentation and diagrams
-├── results/                # Experimental results and metrics
-└── requirements.txt        # Python dependencies
+├── teacher_model/          # Training scripts and configs for teacher network
+│   ├── train.py
+│   ├── model.py
+│   └── ...
+├── student_model/          # Student model, distillation scripts, configs
+│   ├── distill.py
+│   ├── model.py
+│   └── ...
+├── optimization/           # Pruning, quantization, and compression scripts
+│   ├── prune.py
+│   ├── quantize.py
+│   └── ...
+├── tflite_conversion/      # Scripts for TFLite model export and validation
+│   ├── convert.py
+│   └── ...
+├── esp32_simulation/       # PC-side simulation and benchmarking tools
+│   ├── simulate.py
+│   └── ...
+├── esp32_firmware/         # ESP32 C++ firmware (main, model loader, inference)
+│   ├── main/
+│   ├── components/
+│   └── CMakeLists.txt
+├── datasets/               # Data loaders, preprocessors, and sample data
+│   ├── mnist/
+│   ├── sensors/
+│   └── ...
+├── scripts/                # End-to-end automation and deployment scripts
+│   ├── run_full_pipeline.sh
+│   ├── deploy_to_esp32.sh
+│   └── ...
+├── docs/                   # Documentation, hardware setup, diagrams
+│   ├── HARDWARE_SETUP.md
+│   ├── CIRCUIT_DIAGRAM.md
+│   └── ...
+├── results/                # Experimental logs, metrics, plots
+│   ├── mnist/
+│   ├── sensors/
+│   └── ...
+├── requirements.txt        # Python dependencies
+└── README.md               # Project overview and instructions
 ```
 
 ## Datasets
