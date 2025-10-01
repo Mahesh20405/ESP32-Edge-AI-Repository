@@ -1,0 +1,102 @@
+{
+  "summary_statistics": {
+    "overall_mean_accuracy": 0.5916431056002156,
+    "overall_std_accuracy": 0.11816667367503325,
+    "model_performance": {
+      "mean": {
+        "Claude-3": 0.615031576373791,
+        "GPT-3.5": 0.5556456356206273,
+        "GPT-4": 0.6449497301645546,
+        "Gemini-Pro": 0.6110762168569498,
+        "LLaMA-2-70B": 0.5805703404936687,
+        "PaLM-2": 0.5425851340917028
+      },
+      "std": {
+        "Claude-3": 0.12382562360658997,
+        "GPT-3.5": 0.11008319760211996,
+        "GPT-4": 0.11886950102137746,
+        "Gemini-Pro": 0.12025372126360596,
+        "LLaMA-2-70B": 0.10564183687409533,
+        "PaLM-2": 0.10198436725883382
+      },
+      "min": {
+        "Claude-3": 0.34307921400474833,
+        "GPT-3.5": 0.3858900076731347,
+        "GPT-4": 0.34934692783462495,
+        "Gemini-Pro": 0.3511270995229091,
+        "LLaMA-2-70B": 0.37946724161107775,
+        "PaLM-2": 0.3233748403253988
+      },
+      "max": {
+        "Claude-3": 0.9331480109793528,
+        "GPT-3.5": 0.8599966925225654,
+        "GPT-4": 0.8647506448810399,
+        "Gemini-Pro": 0.8824591546598362,
+        "LLaMA-2-70B": 0.7827248452552119,
+        "PaLM-2": 0.7593902552872173
+      }
+    },
+    "task_performance": {
+      "mean": {
+        "Causal Discovery": 0.6580048381629359,
+        "Counterfactual Reasoning": 0.5210524940988616,
+        "Effect Estimation": 0.5958719845388498
+      },
+      "std": {
+        "Causal Discovery": 0.11488125844035482,
+        "Counterfactual Reasoning": 0.09544387676917053,
+        "Effect Estimation": 0.10191253751555057
+      }
+    }
+  },
+  "anova_results": {
+    "model_comparison": {
+      "f_statistic": 5.282449590980542,
+      "p_value": 0.00012113477805384169
+    },
+    "task_comparison": {
+      "f_statistic": 38.8349805565174,
+      "p_value": 1.5699824526003824e-15
+    }
+  },
+  "correlation_analysis": {
+    "Accuracy": {
+      "Accuracy": 1.0,
+      "Confidence": 0.830032163040241,
+      "Response_Time": -0.4145171134010511,
+      "Prompt_Sensitivity": 0.06569815884339882,
+      "Consistency_Score": 0.8717537631228935
+    },
+    "Confidence": {
+      "Accuracy": 0.830032163040241,
+      "Confidence": 1.0,
+      "Response_Time": -0.3433257119462115,
+      "Prompt_Sensitivity": 0.059795101271461766,
+      "Consistency_Score": 0.7406739165288376
+    },
+    "Response_Time": {
+      "Accuracy": -0.4145171134010511,
+      "Confidence": -0.3433257119462115,
+      "Response_Time": 1.0,
+      "Prompt_Sensitivity": -0.06350329607098747,
+      "Consistency_Score": -0.34106201930905056
+    },
+    "Prompt_Sensitivity": {
+      "Accuracy": 0.06569815884339882,
+      "Confidence": 0.059795101271461766,
+      "Response_Time": -0.06350329607098747,
+      "Prompt_Sensitivity": 1.0,
+      "Consistency_Score": 0.008837178641808347
+    },
+    "Consistency_Score": {
+      "Accuracy": 0.8717537631228935,
+      "Confidence": 0.7406739165288376,
+      "Response_Time": -0.34106201930905056,
+      "Prompt_Sensitivity": 0.008837178641808347,
+      "Consistency_Score": 1.0
+    }
+  },
+  "effect_sizes": {
+    "best_vs_worst_model": 0.9242919903660423
+  }
+}

@@ -1,0 +1,35 @@
+esp32 Edge AI - Training Summary Report
+==================================================
+
+MNIST Dataset:
+  Teacher Accuracy: 0.9760
+  Student Accuracy: 0.9631
+  Accuracy Drop: 0.0129
+  Compression Ratio: 5.8x
+  Optimized Size: 22.7 KB
+  Final Compression: 3.3x
+
+FASHION_MNIST Dataset:
+  Teacher Accuracy: 0.8761
+  Student Accuracy: 0.8642
+  Accuracy Drop: 0.0119
+  Compression Ratio: 5.8x
+  Optimized Size: 22.7 KB
+  Final Compression: 3.3x
+
+IRIS Dataset:
+  Teacher Accuracy: 0.8667
+  Student Accuracy: 0.7556
+  Accuracy Drop: 0.1111
+  Compression Ratio: 45.6x
+  Optimized Size: 3.6 KB
+  Final Compression: 0.3x
+
+SENSOR Dataset:
+  Teacher Accuracy: 0.9930
+  Student Accuracy: 0.9917
+  Accuracy Drop: 0.0013
+  Compression Ratio: 45.6x
+  Optimized Size: 3.6 KB
+  Final Compression: 0.3x
+

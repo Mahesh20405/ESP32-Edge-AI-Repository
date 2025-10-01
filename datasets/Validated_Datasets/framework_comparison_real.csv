@@ -1,0 +1,6 @@
+Framework,Model Size (KB),Inference Time (ms),Accuracy (%)
+TensorFlow Lite,882.1,0.10,11.5
+TinyML Pipeline,1145.9,0.62,74.0
+microMLgen,6337.2,1.03,73.4
+Edge Impulse,9.3,0.02,12.6
+Proposed Framework,14.1,0.07,86.9

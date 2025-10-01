@@ -1,0 +1,5 @@
+Use Case,Dataset Size,Features,Classes,Teacher Accuracy (%),Student Accuracy (%),Quantized Accuracy (%),Model Size (KB),Inference Time (ms),Parameter Reduction (%),Training Time (s)
+Smart Home Energy Management,10000,6,3,99.4,99.7,98.4,4.5,0.006,92.9,273.8
+Industrial Predictive Maintenance,8000,4,3,96.9,98.7,98.0,4.4,0.003,93.3,135.9
+Healthcare Patient Monitoring,6000,5,3,89.6,86.0,84.4,4.4,0.004,93.1,101.3
+Agricultural Crop Monitoring,7000,5,3,96.2,98.5,97.0,4.4,0.005,93.1,114.6

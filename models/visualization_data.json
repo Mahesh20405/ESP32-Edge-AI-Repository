@@ -1,0 +1,59 @@
+{
+  "performance_comparison": [
+    {
+      "dataset": "mnist",
+      "teacher_accuracy": 0.9760000109672546,
+      "student_accuracy": 0.963100016117096,
+      "accuracy_drop": 0.012899994850158691,
+      "compression_ratio": 5.767825635703166
+    },
+    {
+      "dataset": "fashion_mnist",
+      "teacher_accuracy": 0.8761000037193298,
+      "student_accuracy": 0.8641999959945679,
+      "accuracy_drop": 0.011900007724761963,
+      "compression_ratio": 5.767825635703166
+    },
+    {
+      "dataset": "iris",
+      "teacher_accuracy": 0.8666666746139526,
+      "student_accuracy": 0.7555555701255798,
+      "accuracy_drop": 0.1111111044883728,
+      "compression_ratio": 45.5761316872428
+    },
+    {
+      "dataset": "sensor",
+      "teacher_accuracy": 0.9929999709129333,
+      "student_accuracy": 0.9916666746139526,
+      "accuracy_drop": 0.0013332962989807129,
+      "compression_ratio": 45.5761316872428
+    }
+  ],
+  "optimization_metrics": [
+    {
+      "dataset": "mnist",
+      "original_size_kb": 75.2734375,
+      "optimized_size_kb": 22.6875,
+      "compression_ratio": 3.3178374655647382
+    },
+    {
+      "dataset": "fashion_mnist",
+      "original_size_kb": 75.2734375,
+      "optimized_size_kb": 22.703125,
+      "compression_ratio": 3.315554026152787
+    },
+    {
+      "dataset": "iris",
+      "original_size_kb": 0.94921875,
+      "optimized_size_kb": 3.6171875,
+      "compression_ratio": 0.26241900647948163
+    },
+    {
+      "dataset": "sensor",
+      "original_size_kb": 0.94921875,
+      "optimized_size_kb": 3.6171875,
+      "compression_ratio": 0.26241900647948163
+    }
+  ],
+  "dataset_performance": []
+}

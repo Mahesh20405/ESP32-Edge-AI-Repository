@@ -1,0 +1,66 @@
+{
+  "TinyML Pipeline": {
+    "model_size_kb": 1.8623046875,
+    "inference_time_ms": 0.1032882663809384,
+    "accuracy_percent": 99.73333333333333,
+    "dataset_used": "IoT Tabular Data (Room Occupancy)",
+    "optimal_use_case": "IoT sensor data classification, simple tabular features",
+    "details": [
+      {
+        "model": "RandomForest",
+        "size_kb": 421.1787109375,
+        "inference_ms": 3.8903372000786476,
+        "accuracy": 99.46666666666667
+      },
+      {
+        "model": "DecisionTree",
+        "size_kb": 1.8623046875,
+        "inference_ms": 0.1032882663809384,
+        "accuracy": 99.73333333333333
+      }
+    ]
+  },
+  "microMLgen": {
+    "model_size_kb": 4.42626953125,
+    "inference_time_ms": 0.9619213336554822,
+    "accuracy_percent": 100.0,
+    "dataset_used": "Time Series Activity Recognition",
+    "optimal_use_case": "Feature-based time series classification, C code generation",
+    "details": [
+      {
+        "model": "SVM_Linear",
+        "size_kb": 48.0224609375,
+        "inference_ms": 1.018798333146454,
+        "accuracy": 99.66666666666667
+      },
+      {
+        "model": "DecisionTree",
+        "size_kb": 4.42626953125,
+        "inference_ms": 0.9619213336554822,
+        "accuracy": 100.0
+      }
+    ]
+  },
+  "TensorFlow Lite": {
+    "model_size_kb": 225.5390625,
+    "inference_time_ms": 0.045349500003794674,
+    "accuracy_percent": 95.85000000000001,
+    "dataset_used": "MNIST Handwritten Digits",
+    "optimal_use_case": "Standard CNN inference, general purpose neural networks"
+  },
+  "Edge Impulse": {
+    "model_size_kb": 6.6796875,
+    "inference_time_ms": 0.03711499969358556,
+    "accuracy_percent": 68.2,
+    "dataset_used": "CIFAR-10 3-class subset",
+    "optimal_use_case": "Small image classification, quantized CNNs"
+  },
+  "Proposed Framework": {
+    "model_size_kb": 14.1,
+    "inference_time_ms": 0.07,
+    "accuracy_percent": 86.9,
+    "dataset_used": "MNIST Handwritten Digits",
+    "optimal_use_case": "Knowledge distillation + progressive optimization for extreme compression",
+    "techniques": "Teacher-student distillation, structured pruning, INT8 quantization"
+  }
+}

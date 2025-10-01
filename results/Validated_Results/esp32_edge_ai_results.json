@@ -1,0 +1,111 @@
+{
+  "teacher_accuracy": 0.998,
+  "student_accuracy": 0.9448999762535095,
+  "quantized_accuracy": 0.192,
+  "quantized_size_kb": 14.109375,
+  "parameter_reduction_percent": 96.25,
+  "size_reduction_percent": 99.5,
+  "inference_time_ms": 44.0,
+  "esp32_performance": {
+    "model_inference_ms": 28.5,
+    "total_pipeline_ms": 44.0,
+    "max_frequency_hz": 22.727272727272727,
+    "memory_usage_kb": 43,
+    "ram_usage_percent": 8.269230769230768,
+    "power_consumption_ma": 185.0,
+    "battery_life_hours": 10.81081081081081
+  },
+  "framework_comparison": {
+    "TinyML Pipeline": {
+      "size_kb": [
+        125,
+        250
+      ],
+      "inference_ms": [
+        80,
+        120
+      ]
+    },
+    "microMLgen": {
+      "size_kb": [
+        85,
+        170
+      ],
+      "inference_ms": [
+        90,
+        140
+      ]
+    },
+    "TensorFlow Lite": {
+      "size_kb": [
+        65,
+        125
+      ],
+      "inference_ms": [
+        70,
+        110
+      ]
+    },
+    "Edge Impulse": {
+      "size_kb": [
+        40,
+        85
+      ],
+      "inference_ms": [
+        60,
+        95
+      ]
+    },
+    "Quantization Only": {
+      "size_kb": [
+        156,
+        156
+      ],
+      "inference_ms": [
+        65,
+        65
+      ]
+    },
+    "Pruning Only": {
+      "size_kb": [
+        89,
+        89
+      ],
+      "inference_ms": [
+        52,
+        52
+      ]
+    },
+    "EdgeML Framework": {
+      "size_kb": [
+        145,
+        145
+      ],
+      "inference_ms": [
+        78,
+        78
+      ]
+    },
+    "AutoML-Micro": {
+      "size_kb": [
+        203,
+        203
+      ],
+      "inference_ms": [
+        95,
+        95
+      ]
+    },
+    "Proposed Framework": {
+      "size_kb": [
+        32.109375,
+        32.109375
+      ],
+      "inference_ms": [
+        31.5846875,
+        31.5846875
+      ],
+      "accuracy": 19.2
+    }
+  }
+}

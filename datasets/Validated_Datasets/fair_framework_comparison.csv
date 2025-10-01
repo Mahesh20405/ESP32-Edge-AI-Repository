@@ -1,0 +1,6 @@
+Framework,Model Size (KB),Inference Time (ms),Accuracy (%),Dataset Used,Optimal Use Case
+TinyML Pipeline,1.9,0.103,99.7,IoT Tabular Data (Room Occupancy),"IoT sensor data classification, simple tabular features"
+microMLgen,4.4,0.962,100.0,Time Series Activity Recognition,"Feature-based time series classification, C code generation"
+TensorFlow Lite,225.5,0.045,95.9,MNIST Handwritten Digits,"Standard CNN inference, general purpose neural networks"
+Edge Impulse,6.7,0.037,68.2,CIFAR-10 3-class subset,"Small image classification, quantized CNNs"
+Proposed Framework,14.1,0.070,86.9,MNIST Handwritten Digits,Knowledge distillation + progressive optimization for extreme compression
